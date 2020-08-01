@@ -1,0 +1,175 @@
+
+/* MAIN STYLING */
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-image: linear-gradient(120deg, #dbc6eb, #efee9d);
+    min-height: 100vh;
+}
+
+header{
+    font-size: 1.5rem ;
+}
+
+header,form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SEARCH FORM STYLING */
+
+form input,button {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    background: white;
+}
+
+
+form button {
+    color: black;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.active-button:hover{
+    background:black;
+    color: white;
+}
+
+/* REVIEW LIST STYLING */
+
+.review-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-list {
+    min-width: 35%;
+    list-style: none;
+}
+
+.review-box {
+    color: black;
+    padding: 0.5rem;
+    display: flex;
+    margin: 2rem;
+    background-color: white;
+    flex-direction: column;    
+    align-items: flex-start;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.review-box:hover{
+    background: black;
+    color: white;
+}
+
+.review-elements {
+    list-style: none;
+}
+
+/* SELECT BUTTON STYLING */
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+.select {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+select {
+    color: black;
+    width: 8rem;
+    cursor: pointer;
+    padding: 0.8rem;
+    transition: all 0.3 ease;
+}
+
+.select::after{
+    content: "\25BC";
+    position: absolute;
+    background: black;
+    color: white;
+    top: 0;
+    right: 0;
+    padding: 0.8rem;
+    pointer-events: none;
+}
+
+/* CREATE BUTTON STYLING */
+
+.create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* REVIEW STYLING */
+
+.review {
+    color: black;
+    padding: 0.5rem;
+    display: flex;
+    margin: 2rem;
+    background-color: white;
+    flex-direction: column;    
+    align-items: flex-start;
+}
+
+.label {
+    margin-left: 1.8rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+
+/* COMMENTS STYLING */
+
+.text-comment {
+    padding: 0.5rem;
+    padding-right: 54rem;
+    font-size: 1.2rem;
+    border: none;
+    background: white;
+}
+
+/* NEW REVIEW STYLING */
+
+.new-review {
+    min-width: 35%;
+    list-style: none;
+}
+
+.review-text {
+    width: 600pt;
+    height: 133pt;
+}
